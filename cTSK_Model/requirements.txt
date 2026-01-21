@@ -1,0 +1,15 @@
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+scikit-learn
+torch>=1.9.0
+scanpy
+networkx
+tqdm
+scikit-optimize
+xgboost
+causal-learn
+PyWGCNA
+# Optional: faiss-cpu
