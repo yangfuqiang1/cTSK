@@ -16,14 +16,17 @@ You can choose between reproducing the figures directly or retraining the model 
 
 ### Option 1: Reproduce Figures (Quick Start)
 To reproduce the figures presented in the paper using the pre-computed results, please run `05_plot_results.py` directly:
-```bash
+
 python 05_plot_results.py
+
 ### Option 2: Retrain Model (Full Workflow)
 1. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
+
 2.Data Preprocessing (Optional): If you have downloaded the raw data into the data_all/ folder, run this script to generate processed .h5ad files
 python data_process.py
+
 Please run the files in the following order:
 * `lib/` & `tsk_model/`: Core model libraries.
 * `data_precess.py`: Script for causal module detection.
