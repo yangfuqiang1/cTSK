@@ -16,7 +16,6 @@ You can choose between reproducing the figures directly or retraining the model 
 
 ### Option 1: Reproduce Figures (Quick Start)
 To reproduce the figures presented in the paper using the pre-computed results, please run `05_plot_results.py` directly:
-
 python 05_plot_results.py
 
 ### Option 2: Retrain Model (Full Workflow)
@@ -34,3 +33,9 @@ Please run the files in the following order:
 * `03_ablation_study.py`: Validation of causal components.
 * `04_benchmark_comparison.py`: Comparison with SVM, RF, XGBoost, etc.
 * `05_plot_results.py`: Visualization generation.
+## Enrichment Analysis
+
+To generate the relevant images and results for enrichment analysis, please follow these steps:
+1.  Locate the **`selected_genes_datasets.xlsx`** file within the **`results`** directory.
+2.  Upload this file to the public analysis platform [Metascape](https://metascape.org/).
+3.  Run the analysis on the website to obtain the final enrichment results and figures.
